@@ -1,0 +1,48 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name= "android:buttonStyle" > @style/MarkaziButtonStyle </item>
+    </style>
+    <item name="textAppearanceHeadline1" type="style">@style/TextAppearance.MaterialComponents.Headline1</item>
+    <item name="textAppearanceHeadline2" type="style">@style/TextAppearance.MaterialComponents.Headline2</item>
+    <item name="textAppearanceHeadline3" type="style">@style/TextAppearance.MaterialComponents.Headline3</item>
+    <item name="textAppearanceHeadline4" type="style">@style/TextAppearance.MaterialComponents.Headline4</item>
+    <item name="textAppearanceHeadline5" type="style">@style/TextAppearance.MaterialComponents.Headline5</item>
+    <item name="textAppearanceHeadline6" type="style">@style/TextAppearance.MaterialComponents.Headline6</item>
+    <item name="textAppearanceSubtitle1" type="style">@style/TextAppearance.MaterialComponents.Subtitle1</item>
+    <item name="textAppearanceSubtitle2" type="style">@style/TextAppearance.MaterialComponents.Subtitle2</item>
+    <item name="textAppearanceBody1" type="style">@style/TextAppearance.MaterialComponents.Body1</item>
+    <item name="textAppearanceBody2" type="style">@style/TextAppearance.MaterialComponents.Body2</item>
+    <item name="textAppearanceCaption" type="style">@style/TextAppearance.MaterialComponents.Caption</item>
+    <item name="textAppearanceButton" type="style">@style/TextAppearance.MaterialComponents.Button</item>
+    <item name="textAppearanceOverline" type="style">@style/TextAppearance.MaterialComponents.Overline</item>
+    <style name="TextviewStyle" parent="@android:style/Widget.TextView">
+
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">25dp</item>
+        <item name="android:fontFamily"></item>
+    </style>
+    <style name="ButtonStyle" parent="@android:style/Widget.Button">
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">100dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">#F1511B</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">15dp</item>
+    </style>
+
+    <style name= "MarkaziTextViewStyle" parent= "android:Widget.TextView" >
+        <item name= "android:fontFamily" > Markazi </item>
+    </style>
+    <style name= "MarkaziButtonStyle" parent= "android:Widget.Holo.Button" >
+        <item name= "android:fontFamily" > Markazi </item>
+    </style>
+</resources>
